@@ -1,6 +1,5 @@
 # Diet_overlap_FSA_Schoener
-´´´´´´
-
+'''''''
 dietOverlap <- function(diet1,diet2=NULL,
                         type=c("Horn","Levins","Morisita","Pianka","Schoener"),
                         prey=NULL,num1=NULL,num2=NULL,N1=NULL,N2=NULL) {
@@ -104,3 +103,4 @@ summary.dietOverlap <- function(object,verbose=TRUE,digits=getOption("digits"),.
     print(round(object$propdiet,digits))
   } else round(object$doi,digits)
 }
+'''''''
